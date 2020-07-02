@@ -103,18 +103,19 @@ Control the white ball  using the ```move``` feature in Gazebo such that it fall
 Watch the robot chase the ball!
 
 ## Missing minor feature
-The ```~/Go_Chase_It/my_robot/world/Avadhoot.world``` file uses ```~/Go_Chase_It/my_robot/meshes/RoboLeg.STL``` for the legs of the static robot model as indicated in the picture below:
+The ```~/Go_Chase_It/my_robot/world/Avadhoot.world``` file uses ```~/Go_Chase_It/my_robot/meshes/RoboLeg.STL``` for the legs of the **static** robot model as indicated in the picture below:
 <p>&nbsp;</p>
 
-<img src="output/Reference_roboleg.PNG" width="600" >
+<img src="output/Reference_roboleg.PNG" width="500" >
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
 The ```Avadhoot.world``` file thus, contains the directory address of the ```RoboLeg.STL``` as ```/home/robond/workspace/catkin_ws/src/Go_Chase_It/my_robot/meshes/RoboLeg.STL```
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    **Replace all** the addresses appropriately to see the legs. 
 
-Replace the address appropriately to see the legs or the package will run without errors but without the legs as seen below:
+Else the package will **run without errors** but without the legs as seen below:
 
 <p>&nbsp;</p>
 
-<img src="output/Reference_roboleg_error.PNG" width="600" >
+<img src="output/Reference_roboleg_error.PNG" width="500" >
