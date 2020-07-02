@@ -46,7 +46,8 @@ Writing a drive_botC++ node that will provide a service to drive the robot by co
 
 A process_image C++ node that reads robot’s camera image, analyzes it to determine the presence and position of a white ball. If a white ball exists in the image, the node should request a service via a client to drive the robot towards it.
 
-## Output (x1.5)
+## Output 
+Speed: x1.5
 ![](output/GIF.gif)
 
 
@@ -109,8 +110,7 @@ The ```~/Go_Chase_It/my_robot/world/Avadhoot.world``` file uses ```~/Go_Chase_It
 
 <p>&nbsp;</p>
 
-The ```Avadhoot.world``` file thus, contains the directory address of the ```RoboLeg.STL``` as ```/home/robond/workspace/catkin_ws/src/Go_Chase_It/my_robot/meshes/RoboLeg.STL```
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;      **Replace all** the addresses appropriately to see the legs. 
+The ```Avadhoot.world``` file thus, contains the directory address of the ```RoboLeg.STL``` as ```/home/robond/workspace/catkin_ws/src/Go_Chase_It/my_robot/meshes/RoboLeg.STL```<br/> **Replace all** the addresses appropriately to see the legs. 
 
 Else the package will **run without errors** but without the legs as seen below:
 
