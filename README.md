@@ -55,6 +55,7 @@ Note: The commands in this README work, considering that the main workspace is l
       Notice the ```robond``` username. Make appropriate changes for your system.
       
 Warning: Some minor features will not work in your system if your username of the system is different.
+
 [Click here for the fix and to learn more](#Missing-minor-feature)
 #### 1. Update the Workspace image
 ```
@@ -95,6 +96,16 @@ $ rosrun rqt_image_view rqt_image_view
 
 
 #### 6. Move the white ball
-Control the white ball (initially outside the building; can be seen at the bottom of the screen towards the middle) using the ```move``` feature in Gazebo and watch the robot chase the ball!
+The ball is initially outside the building; can be seen at the bottom of the screen towards the middle
+
+Control the white ball  using the ```move``` feature in Gazebo such that it falls within the camera frame.
+
+Watch the robot chase the ball!
 
 ## Missing minor feature
+The ```~/Go_Chase_It/my_robot/world/Avadhoot.world``` file uses ```~/Go_Chase_It/my_robot/meshes/RoboLeg.STL``` for the legs of the static robot model as indicated in the picture below:
+<img src="output/Reference_roboleg.PNG" >
+
+The ```Avadhoot.world``` file thus, contains the directory address of the ```RoboLeg.STL``` as ```/home/robond/workspace/catkin_ws/src/Go_Chase_It/my_robot/meshes/RoboLeg.STL```
+
+Replace the address appropriately to see the legs or the package will run without errors but without the legs as seen below:
