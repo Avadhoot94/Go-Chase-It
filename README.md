@@ -105,11 +105,16 @@ Watch the robot chase the ball!
 ## Missing minor feature
 The ```~/Go_Chase_It/my_robot/world/Avadhoot.world``` file uses ```~/Go_Chase_It/my_robot/meshes/RoboLeg.STL``` for the legs of the static robot model as indicated in the picture below:
 <p>&nbsp;</p>
-<img src="output/Reference_roboleg.PNG" width="700" >
+
+<img src="output/Reference_roboleg.PNG" width="600" >
+
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 The ```Avadhoot.world``` file thus, contains the directory address of the ```RoboLeg.STL``` as ```/home/robond/workspace/catkin_ws/src/Go_Chase_It/my_robot/meshes/RoboLeg.STL```
 
 Replace the address appropriately to see the legs or the package will run without errors but without the legs as seen below:
+
 <p>&nbsp;</p>
-<img src="output/Reference_roboleg_error.PNG" width="700" >
+
+<img src="output/Reference_roboleg_error.PNG" width="600" >
