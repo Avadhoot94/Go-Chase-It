@@ -94,7 +94,7 @@ Add camera in ```RViz``` and use the ```Image Topic``` : ```/camera/rgb/image_ra
 ```
 $ rosrun rqt_image_view rqt_image_view
 ```
-
+Use the ```Image Topic``` : ```/camera/rgb/image_raw```
 
 #### 6. Move the white ball
 The ball is initially outside the building; can be seen at the bottom of the screen towards the middle
