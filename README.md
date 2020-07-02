@@ -11,8 +11,8 @@
     │   ├── launch                     # launch folder for launch files   
     │   │   ├── robot_description.launch
     │   │   ├── world.launch
-    │   ├── meshes                     # meshes folder for sensors
-    │   │   ├── hokuyo.dae
+    │   ├── meshes                     # meshes folder for sensors and model
+    │   │   ├── hokuyo.dae             # mesh for laser scanner
     │   │   ├── RoboLeg.STL            # CAD file of Robot's leg (made in SolidWorks)
     │   ├── urdf                       # urdf folder for xarco files
     │   │   ├── my_robot.gazebo
@@ -51,6 +51,8 @@ A process_image C++ node that reads robot’s camera image, analyzes it to deter
 Speed: x1.5
 ![](output/GIF.gif)
 
+## Environment
+Tested on Ubuntu 16.04.6 LTS, ROS Kinetic
 
 ## Setup and run
 Note: The commands in this README work, considering that the main workspace is located at ```/home/robond/workspace/catkin_ws/src```      
