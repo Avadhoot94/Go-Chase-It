@@ -50,7 +50,7 @@ A process_image C++ node that reads robot’s camera image, analyzes it to deter
 ## Output 
 Speed: x1.5
 ![](output/GIF.gif)
-![](GIF-copy.gif)
+
 
 ## Environment
 Tested on Ubuntu 16.04.6 LTS, ROS Kinetic
@@ -78,7 +78,6 @@ $ cd /home/robond/workspace/catkin_ws
 $ catkin_make
 $ source devel/setup.bash
 ```
-
 #### 3. Launch the world and the robot
 ```
 $ roslaunch my_robot world.launch
