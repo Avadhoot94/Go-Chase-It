@@ -72,7 +72,7 @@ $ sudo apt-get update && sudo apt-get upgrade -y
 $ cd /home/robond/workspace/catkin_ws/src
 $ git clone https://github.com/Avadhoot94/Go_Chase_It.git
 ```
-#### 3. Create a build directory and compile the code
+#### 3. Build the package
 ```
 $ cd /home/robond/workspace/catkin_ws
 $ catkin_make
